@@ -5,6 +5,7 @@ public class Rectangle {
 	private double Length;
 	private double Width;
 	private double a;
+	
 	public Rectangle(double length, double width) {
 		Length = length;
 		Width = width;
