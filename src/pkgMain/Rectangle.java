@@ -4,6 +4,7 @@ public class Rectangle {
 
 	private double Length;
 	private double Width;
+	private double a;
 	public Rectangle(double length, double width) {
 		Length = length;
 		Width = width;
@@ -17,7 +18,8 @@ public class Rectangle {
 	
 	public double Area()
 	{
-		// TODO Implement Area() function with the correct formula
-		return 0;
+		 a = getLength() * getWidth(); 
+		
+		return a;
 	}	
 }
