@@ -20,7 +20,6 @@ public class Rectangle {
 	public double Area()
 	{
 		 a = getLength() * getWidth(); 
-		
 		return a;
 	}	
 }
